@@ -1,0 +1,39 @@
+package Demo;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n = 100;
+		int counter=0;
+		
+		for(int i=1;i<n;i++)
+		
+			
+		{
+			for(int j=2;j<i;j++)
+			{
+				
+				if(j%i==0)
+				{
+					counter ++;
+					break;
+					 
+				}
+				
+				
+			}
+			if(counter==2)
+			{
+			    System.out.print(i+" ");
+			    break;
+			   
+			}
+			
+			
+		}
+		
+	}
+
+}

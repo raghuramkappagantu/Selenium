@@ -1,0 +1,24 @@
+package Demo;
+
+public class MissingNumberInArray {
+
+	public static int missingNumber(int[]array,int count)
+	{
+		
+		int expectedSum = count*(count+1)/2;
+		for(int i:array)
+		{
+			actualSum+=i;
+		}
+		
+		return 0;
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		missingNumber(new int[] {1,2,3,4,5,7},7);
+
+	}
+
+}

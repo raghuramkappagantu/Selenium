@@ -1,0 +1,29 @@
+package Demo;
+
+public class ReverseNumber {
+
+	
+	public int numReversal(int num)
+	{
+		int digit,revNum = 0;
+		
+		while(num>0)
+		{
+			digit=num%10;
+			revNum=revNum*10+digit;
+			num=num/10;
+						
+		}
+		return revNum;
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		numReversal(12345);
+//		System.out.println("Reveresed Num is: " + numRev);
+		
+
+	}
+
+}
